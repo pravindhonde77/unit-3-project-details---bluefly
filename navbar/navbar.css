@@ -1,0 +1,119 @@
+* {
+    font-family: Futura, sans-serif;
+    background-color: white;
+  }
+  #LandingPg {
+    width: 100%;
+     /* position:fixed; */
+    /* overflow: hidden; */ 
+  }
+  /* Header */
+  /* first Header */
+  #BlurFly_Nav {
+    width: 100%;
+    height: 130px;
+    position:fixed;
+    margin-top: -10px;
+    /* overflow: hidden; */
+    /* border: 1px solid red; */
+  }
+  #Header02,
+  #Header01 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+  #space {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 35%;
+    height: 50px;
+  }
+  /* Site Logo */
+  #Logo {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+  }
+  #Logo > img {
+    margin-left: 16%;
+  }
+  /* Search Bar */
+  #SearchBar {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 30%;
+    height: 50px;
+    display: flex;
+  }
+  #searchTxt {
+    width: 250px;
+    height: 60%;
+    border: 1px solid rgba(179, 179, 179, 0.623);
+    border-radius: 5px;
+    margin-left: 18%;
+    margin-top: 8px;
+  }
+  #iconSearch {
+    margin-left: 55px;
+    margin-top: 11px;
+  }
+  #iconSearch > ion-icon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+    /* border: 1px solid red; */
+  }
+  #iconSearch > ion-icon:hover {
+    cursor: pointer;
+    transition: width 0.1s linear;
+    color: rgba(151, 151, 151, 0.897);
+  }
+  #SignIn,
+  #Cart {
+    width: 3%;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+  }
+  #SignIn > ion-icon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+  }
+  #SignIn > ion-icon:hover {
+    cursor: pointer;
+    transition: width 0.1s linear;
+    color: rgba(151, 151, 151, 0.897);
+  }
+  #Cart > ion-icon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+  }
+  #Cart > ion-icon:hover {
+    cursor: pointer;
+    transition: width 0.1s linear;
+    color: rgba(151, 151, 151, 0.897);
+  }
+  /* second Header */
+  #Header02 {
+    height: 40px;
+  }
+  #Head_tags {
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.2em;
+    /* border: 1px solid red; */
+  }
+  #Head_tags:hover {
+    border-bottom: 2px solid rgba(44, 44, 44, 0.767);
+    cursor: pointer;
+    transition: width 0.3s linear;
+  }

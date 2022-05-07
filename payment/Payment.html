@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="./payment.css" />
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div id="bb">
+      <div id="left">
+        <div id="section">
+          <img
+            id="checkout-logo"
+            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?180177"
+            alt=""
+          />
+          <div id="breadcurm">
+            <p>Cart</p>
+            <i class="fa-solid fa-greater-than"></i>
+            <p><a href="../Information/Information.html">Information</a></p>
+            <i class="fa-solid fa-greater-than"></i>
+            <p><a href="../Shipping/Shipping.html">Shipping</a></p>
+            <i class="fa-solid fa-greater-than"></i>
+            <strong><p><a href="../payment/Payment.html">Payment</a></p></strong>
+          </div>
+
+
+          <div id="shipping">
+            <div class="innerdiv">
+              <div>
+                <div>Contact</div>
+                <div id="UserEmail">pravindhonde77@gmail.com</div>
+                <div>Change</div>
+              </div>
+              <hr />
+              <div>
+                <div>Ship to</div>
+                <div>
+                  <p id="UserAddress">
+                    near mpkv,rahuri,maharashta
+                  </p>
+                </div>
+                <div>Change</div>
+              </div>
+              <hr />
+
+              <div>
+                <div>Method</div>
+                <div>
+                  <p id="UserAddress">Standard. <b>$7.95</b></p>
+                </div>
+                <div>Change</div>
+              </div>
+            </div>
+
+            <p id="sm1">Payment</p>
+            <p id="sm2">All transactions are secure and encrypted.</p>
+
+            <div class="innerdiv">
+              <div>
+                <div><input type="radio" id="ship" checked /></div>
+                <div>Credit card</div>
+                <div></div>
+              </div>
+              <div id="cardinput">
+                <input type="text" id="CardNumber" maxlength="16" placeholder="Card number" />
+                <input type="text" id="CardName" placeholder="Name on card" />
+                <div
+                  style="
+                    display: flex;
+                    margin: 5px;
+                    width: 90%;
+                    box-sizing: border-box;
+                  "
+                >
+                  <input type="month" id="Expriy" placeholder="Expriy date(MM / YY)" />
+                  <input type="text" id="otp" maxlength="4" placeholder="Security code" />
+                </div>
+              </div>
+              <hr />
+              <div>
+                <div>
+                  <input type="radio" id="ship" />
+                </div>
+                <div>
+                  <img
+                    style="width: 100px"
+                    src="https://cdn.shopify.com/shopifycloud/shopify/assets/checkout/offsite-gateway-logos/paypal@2x-768388b0667bef1aa9a7cf02fa1cc2184c2915a90d4cdd62dde223f74f2acbfc.png"
+                    alt=""
+                  />
+                </div>
+                <div></div>
+              </div>
+            </div>
+
+            <div>
+              <p id="sm1">Billing address</p>
+              <p id="sm2">
+                Select the address that matches your card or payment method.
+              </p>
+
+              <div class="innerdiv">
+                <div>
+                  <div><input type="radio" id="ship" checked/></div>
+                  <div>Same as shipping address</div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <hr />
+                <div>
+                  <div>
+                    <input type="radio" id="ship" />
+                  </div>
+                  <div>Use a different billing address</div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="form-footer">
+            <p>Return to cart</p>
+            <button id="order">Place Order</button>
+          </div>
+          <hr />
+          <!-- Information -->
+
+          <div id="checkout-footer">
+            <a href="#">Refund policy</a>
+            <a href="#">Shipping policy</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <div id="section">
+<div id="product"></div>
+
+          
+          <hr />
+          <div id="gift">
+            <input type="text" id="code" placeholder="Gift card or discount code" />
+            <button id="applycode">Apply</button>
+          </div>
+          <hr />
+          <div id="subtotal">
+            <div>
+              <p>Subtotal</p>
+              <p>Shipping</p>
+            </div>
+            <div>
+              <p id="paisatotal"></p>
+              <p id="shiptax">$ 7.95</p>
+            </div>
+          </div>
+          <hr />
+          <div id="total">
+            <div>
+              <p id="finalPaisaTotal">Total</p>
+            </div>
+            <div><h3 id="finalt"></h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./Payment.js" >
+  
+</script>
+
+

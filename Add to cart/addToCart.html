@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <style>
+        #black_slider{
+    width: 100%;
+    height: 27px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    font: 12px Futura,sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    justify-content: center;
+   padding-top: 10px;
+}
+
+#parent_div{
+    width: 95%;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+#child_1{
+    width: 200px;
+    height: 500px;
+    border: 1px solid teal;
+}
+#child_2{
+    width: 500px;
+    height: 700px;
+    border: 1px solid teal;
+}
+#child_3{
+    width: 700px;
+    height: 8 00px;
+    border: 1px solid teal;
+    margin-left: 130px;
+
+}
+#small_img1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#small_img1>img{
+    width: 100px;
+    height: 100px;
+  
+}
+#child_2>img{
+    margin-left: 100px;
+    width: 300px;
+    height: 400px;
+   
+}
+#h3_valent{
+
+}
+#h1_valento{
+    font-family: Tiemann,serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+#price_final{
+    margin-left: 15px;
+}
+#final_save{
+    margin-left: 15px;
+    color: red;
+}
+#add_to_cart{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    margin-left: px;
+    letter-spacing: 0.3em;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+#text>li{
+    font-size: 16px;
+    font-family: Futura,sans-serif;
+    text-align: -webkit-match-parent;
+
+}
+    </style>
+</head>
+<body>
+
+    <div id="LandingPg">
+        <!-- <label for="">Navigation Bar</label> -->
+        <div id="BlurFly_Nav">
+            <div id="Header01">
+                <div id="space"></div>
+                <div id="Logo" onclick="window.location.href='index.html'">
+                    <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="logoSite" style="width:260px; align-items: center;">
+                </div>
+                <div id="SearchBar">
+                    <div>
+                        <input id="searchTxt" type="text" placeholder="Search">
+                    </div>
+                    <div id="iconSearch">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>   
+                </div>
+                <div id="SignIn" onclick="window.location.href='Signup.html'">
+                    <ion-icon id="iconNav" name="person-outline"></ion-icon>
+                </div>
+                <div id="Cart" onclick="window.location.href='Cart.html'">
+                    <ion-icon id="iconNav" name="bag-outline"></ion-icon>
+                </div>
+            </div>
+            <div id="Header02">
+                <div id="Head_tags" style="margin-left: 2%" >SHOES</div>
+                <div id="Head_tags" >HANDBAGS & ACCESSORIES</div>
+                <div id="Head_tags" >DESIGNERS</div>
+                <div id="Head_tags">WOMEN</div>
+                <div id="Head_tags">MEN</div>
+                <div id="Head_tags">SUNGLASSES</div>
+                <div id="Head_tags">JEWELLERY & WATCHES</div>
+                <div id="Head_tags">UNDER $50</div>
+                <div id="Head_tags">BEAUTY</div>
+                <div id="Head_tags" style="color: red;">CLEARANCE</div>
+                
+            </div>            
+        </div>
+        <br>
+        <br>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <div id="black_slider">  FREE SHIPING:On Orders Over $99</div>
+
+
+    <div id="parent_div">
+        <div id="child_1">
+            <div id="small_img1">
+                
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313201861_RLLZ_1_360x.jpg?v=1651370369" alt="">
+            </div>
+            <div id="small_img1">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313201861_RLLZ_2_360x.jpg?v=1651370370" alt="">
+            </div>
+            <div id="small_img1">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313201861_RLLZ_3_360x.jpg?v=1651370371" alt="">
+            </div>
+            <div id="small_img1">
+                <img id="big_img" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313201861_RLLZ_4_360x.jpg?v=1651370372" alt="">
+            </div>
+        </div>
+        <div id="child_2">
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313201861_RLLZ_1_1800x1800.jpg?v=1651370369" alt="">
+        </div>
+        <div id="child_3">
+            <h3 id="h3_valent">VALENTINO</h3>
+            <h1 id="h1_valento">VALENTINO ROCKSTUD CAGED 100 LEATHER PUMP</h1>
+            <p style="margin-top: 24px;"> <del>$990.00</del> <span id="price_final">698.99</span> <span id="final_save">Save 29%</span></p>
+            <div style="font-size: 16px; font-family: Futura,sans-serif;">FREE SHIPPING ON ORDERS OVER $99</div>
+            
+            <br>
+           
+            <hr>
+            <button id="add_to_cart">ADD TO CART</button>
+
+            <div style="margin-top: 20px;font-size: 16px;font-family: Futura,sans-serif;"">Usually ships in 1 to 2 business days</div>
+            <div>
+                <ul id="text">
+                    <li>Price As Marked</li>
+                    <li>About The Brand: Signature Elegance With A Modern Aesthetic.</li>
+                    <li>Please Note: Size Selections Are European. For Us Conversions</li>
+                    <li>Please Reference Size Chart.</li>
+                    <li>Made In Italy</li>
+                    <li>Rockstud Caged 100 Leather Pump In White Leather With Platinum-Finish Rockstuds And Powder Leather Trim</li>
+                    <li>Adjustable Ankle Strap With Buckle Closure</li>
+                    <li>Lightly Padded Leather Insole</li>
+                    <li>Smooth Leather Sole</li>
+                    <li>4In Heel</li>
+                    <li>Please Note: All Measurements Are Approximate And Were Taken From A Size 37; Slight Variations May Occur.</li>
+                    <li>Our Products Are 100% Genuine. In Some Cases We Purchase Merchandise From Trusted Independent Suppliers And Not Directly From The Brand Owner. In All Cases We Stand By The Authenticity Of Every Product Sold On The Site.</li>
+                    <li>SKU: BF-103665585-DHGX</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="upper">
+            <div class="footerUpper">
+                <div class="footupimg">
+                    <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/denim_400x.jpg?v=1615204984" alt="">
+                </div>
+                <div class="footuph3">
+                    <h3>UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h3>
+                    <p>From Hudson Jeans, Joe's Jeans, J Brand & More</p>
+                    <button> SHOP DENIM </button>
+                </div>
+            </div>
+            <div class="footerUpper">
+                <div class="footupimg">
+                    <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/lightweight_jackets_720x.jpg?v=1630509164" alt="">
+                </div>
+                <div class="footuph3">
+                    <h3>UP TO 80% OFF LIGHTWEIGHT JACKETS & COATS</h3>
+                    <p>Must-Haves From Cole Haan, Burberry, & More</p>
+                    <button> SHOP OUTERWEAR </button>
+                </div>
+            </div>
+            <div class="footerUpper">
+                <div class="footupimg">
+                    <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/accesories_400x.jpg?v=1630509636" alt="">
+                </div>
+                <div class="footuph3">
+                    <h3>UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h3>
+                    <p id="para-3">Shop Wallets, Belts, Hats, Sunglasses & More</p>
+                    <button>SHOP WOMEN'S ACCESSORIES </button>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="lowerup">
+                <div class="aboutus">
+                    <h3>ABOUT US</h3>
+                    <div class="abus">
+                        <div>
+                            <p>Contact Us</p>
+                            <p>Frequenly Asked Questions</p>
+                            <p> Shipping & Returns</p>
+                            <p> Pre-Owned Guide</p>
+                        </div>
+                        <div>
+    
+                            <p>Sell on Bluefly</p>
+                            <p>Privacy Policy</p>
+                            <p> Terms & Conditions</p>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="signup">
+                    <h3>SIGN UP AND SAVE</h3>
+                    <p style="font-size: 13px; line-height: 0.9;">Subscribe to get exclusive offers on</p>
+                    <p style="font-size: 13px; line-height: 0.9">designer brands.</p>
+                    <br>
+                    <input type="text" placeholder="Enter your email">
+                    <br>
+                    <br>
+                    <button>Subscribe</button>
+                    <br>
+                    <br>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                
+            </div>
+            <div class="lowerlow">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="Bluefly" style="width:200px; height:45px">
+                <p>
+                    © 2022 Bluefly 1998-2020 BLUEFLY.COM OR ITS AFFILIATES  ALL RIGHTS RESERVED.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   
+    
+</body>
+</html>
+<script>
+ var addToCartdata=[
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1182576_9c99648a-f5df-420c-a851-90f92f591561_360x.jpg?v=1644385463",
+        type:"",
+        name:"STUART WEITZMAN NUDISTSONG LEATHER SANDAL",
+        sprice:"450.00",
+        hprice:"199.99",
+        save:"Save 56%",
+    },
+]
+
+addToCartdata.map(function(el){
+    let div=document.createElement("div")
+    div.setAttribute("id","child_2")
+
+    let image=document.createElement("img")
+    image.src=el.image
+    child_2.append(image)
+})
+ 
+</script>

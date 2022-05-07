@@ -1,0 +1,38 @@
+var newArrival=[
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1631786_900x.jpg?v=1651239390",
+        name:"A LEATHER HANDBAG",
+        sprice:"$1,426.00",
+        hprice:"$1,116.36",
+        save:"Save 22%",
+    },
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1566289_900x.png?v=1635615949",
+        name:"'DIVA!' T-SHIRT",
+        sprice:"$694.00",
+        hprice:"$420.60",
+        save:"Save 39%",
+    },
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2246722_900x.jpg?v=1649684335",
+        name:"LA MEDUSA RUBBER MULES",
+        sprice:"$492.00",
+        hprice:"$385.29",
+        save:"Save 22%",
+    },
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2087946_900x.jpg?v=1638291787",
+        name:"'FOR RIDING' RAINBOOTS",
+        sprice:"$473.00",
+        hprice:"$347.65",
+        save:"Save 27%",
+    },
+    {
+        image:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2149730_76cf6aa7-502b-4b5b-bd8e-31e1af9ed2bb_900x.jpg?v=1646588764",
+        name:"'KIKI' STRAW CANOTIER HAT",
+        sprice:"$669.00",
+        hprice:"$505.65",
+        save:"Save 24%",
+    },
+]
+

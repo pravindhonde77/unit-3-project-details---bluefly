@@ -1,0 +1,116 @@
+/* * {
+    font-family: Futura, sans-serif;
+    letter-spacing: 0.1em;
+} */
+.upper{
+    display: flex;
+    text-align: center;
+    font-family: Futura, sans-serif;
+    letter-spacing: 0.1em;
+}
+.footupper{
+    margin: auto;
+    padding: 10px;
+    font-family: Futura, sans-serif;
+    letter-spacing: 0.1em;
+}
+.footupimg>img{
+    margin: auto;
+    height: 300px;
+    width: 400px;
+}
+.footuph3{
+    margin: auto;
+    padding: 20px;
+}
+.footuph3>h3{
+    font-family: 24px Tiemann,serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0px 0px 15px;
+
+}
+.footuph3>p{
+    font: 16px Futura,sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.footuph3>button{
+    width: 400px;
+    padding: 10px;
+    border:0.3px solid rgb(86, 83, 83) ;
+    background-color: transparent;
+    height:40px;
+    line-height: 1.6;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+  
+}
+.lower{ 
+    width:100%;
+    background-color: rgb(211, 209, 209);
+    font-family: Futura, sans-serif;
+    letter-spacing: 0.1em;
+}
+.lowerup{
+    display:flex;
+    font-family: Futura, sans-serif;
+    letter-spacing: 0.1em;
+}
+.lowerup>div{
+    padding: 40px;
+}
+.lowerup>div>div>div{
+    padding: 20px;
+}
+.abus{
+    display:flex;
+}
+
+.signup>input{
+    margin: auto;
+    padding: 7px;
+    width: 270px;
+}
+
+.signup>button{
+    margin: auto;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    width: 290px;
+}
+.signup>button:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+.signup>ion-icon{
+    width:30px;
+    height:30px;
+    margin-left: 10px;
+}
+.signup>ion-icon:hover{
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+.lowerlow{
+    padding: 20px;
+}
+.lowerlow>img{
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+.lowerlow>p{
+    text-align: center;
+    padding: 20px;
+}
+#para-3{
+    margin-left: 40px;
+}

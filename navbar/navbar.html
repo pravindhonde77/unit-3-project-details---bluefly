@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Fashion up to 70% Off Shoes, Handbags, Dresses & More</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://media-exp1.licdn.com/dms/image/C4D0BAQEKK8LuZGgkIA/company-logo_200_200/0/1574689983692?e=2159024400&v=beta&t=hKUJ4rZb4Wp_C9-2XTcelqSR-RwIPtgWxliB0sJjr2g" />
+</head>
+<link rel="stylesheet" href="./navbar.css">
+<body>
+    <div id="LandingPg">
+        <!-- <label for="">Navigation Bar</label> -->
+        <div id="BlurFly_Nav">
+            <div id="Header01">
+                <div id="space"></div>
+                <div id="Logo" onclick="window.location.href='index.html'">
+                    <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="logoSite" style="width:260px; align-items: center;">
+                </div>
+                <div id="SearchBar">
+                    <div>
+                        <input id="searchTxt" type="text" placeholder="Search">
+                    </div>
+                    <div id="iconSearch">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>   
+                </div>
+                <div id="SignIn" onclick="window.location.href='Signup.html'">
+                    <ion-icon id="iconNav" name="person-outline"></ion-icon>
+                </div>
+                <div id="Cart" onclick="window.location.href='Cart.html'">
+                    <ion-icon id="iconNav" name="bag-outline"></ion-icon>
+                </div>
+            </div>
+            <div id="Header02">
+                <div id="Head_tags" style="margin-left: 2%" >SHOES</div>
+                <div id="Head_tags" >HANDBAGS & ACCESSORIES</div>
+                <div id="Head_tags" >DESIGNERS</div>
+                <div id="Head_tags">WOMEN</div>
+                <div id="Head_tags">MEN</div>
+                <div id="Head_tags">SUNGLASSES</div>
+                <div id="Head_tags">JEWELLERY & WATCHES</div>
+                <div id="Head_tags">UNDER $50</div>
+                <div id="Head_tags">BEAUTY</div>
+                <div id="Head_tags" style="color: red;">CLEARANCE</div>
+                
+            </div>            
+        </div>
+        <br>
+        <br>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script>
+
+        window.onscroll = function() {myFunction()};
+    
+        var header = document.getElementById("BlurFly_Nav");
+    
+        var stayNav = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > stayNav) {
+                header.classList.add("stayNav");
+            }
+            else {
+                header.classList.remove("stayNav");
+            }
+        }
+    </script>
+</body>
+</html>
